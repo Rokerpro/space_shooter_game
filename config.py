@@ -1,0 +1,26 @@
+#game configuration
+WIDTH, HEIGHT = 800, 600
+FPS = 60
+
+PLAYER_SPEED = 5
+BULLET_SPEED = 10
+ENEMY_SPEED = 1.2
+ENEMY_DROP = 20
+ENEMY_FIRE_RATE = 0.005
+
+WHITE = (255,255,255)
+BLACK = (0,0,0)
+BLUE = (80,160,255)
+RED = (220,60,60)
+YELLOW = (250,230,80)
+GREEN = (90,220,90)
+CYAN = (0,255,255)
+
+# Background colors for levels
+BG_COLORS = [
+    (10,10,30),
+    (20,15,50),
+    (30,25,60),
+    (15,30,25),
+    (40,10,40)
+]
